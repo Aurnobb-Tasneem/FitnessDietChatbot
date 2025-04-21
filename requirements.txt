@@ -1,0 +1,12 @@
+streamlit
+fastapi
+uvicorn
+requests
+sentence-transformers
+chromadb
+PyPDF2
+transformers
+huggingface_hub
+langchain
+google-generativeai
+python-dotenv
