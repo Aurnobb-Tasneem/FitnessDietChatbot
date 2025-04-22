@@ -16,12 +16,12 @@ app = FastAPI()
 
 # List of PDF files with absolute paths
 pdf_files = [
-    "D:/CSE299/PythonProject1/data/Diet.pdf",
-    "D:/CSE299/PythonProject1/data/Goal.pdf",
-    "D:/CSE299/PythonProject1/data/Precausions.pdf",
-    "D:/CSE299/PythonProject1/data/Scientific.pdf",
-    "D:/CSE299/PythonProject1/data/Templates.pdf",
-    "D:/CSE299/PythonProject1/data/Workout.pdf"
+    "data/Diet.pdf",
+    "data/Goal.pdf",
+    "data/Precausions.pdf",
+    "data/Scientific.pdf",
+    "data/Templates.pdf",
+    "data/Workout.pdf"
 ]
 
 # ChromaDB persistent storage path
