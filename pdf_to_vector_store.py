@@ -35,7 +35,9 @@ def extract_text_from_pdf(pdf_path: str) -> Tuple[str, str]:
                 if page_text:
                     text += page_text + "\n"
             safe_print(f"Extracted text from {os.path.basename(pdf_path)}")
-            return os.path.basename(pdf_path), text
+
+        return os.path.basename(pdf_path), text
+
     except Exception as e:
         safe_print(f"Error reading {pdf_path}: {e}")
         return os.path.basename(pdf_path), ""
