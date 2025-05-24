@@ -5,7 +5,7 @@ import chromadb
 import os
 import json
 import asyncio
-from pdf_to_vector_store import pdf_to_vector_store, safe_print
+from vetorization import pdf_to_vector_store, safe_print
 from llm_interface import LLMInterface
 from typing import List, Tuple
 from dotenv import load_dotenv

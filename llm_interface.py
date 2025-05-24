@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def safe_print(*args, **kwargs):
-    from pdf_to_vector_store import safe_print as sp
+    from vetorization import safe_print as sp
     sp(*args, **kwargs)
 
 class LLMInterface:
